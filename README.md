@@ -101,6 +101,8 @@ tail -f ~/.dsh/logs/desktop-notify.log
 |---|---|
 | `mounted` | 插件已挂载，含 `version` / `source` / `pid` |
 | `notify` | 已发出通知，含 `id` / `urgency` / `summary` / `stderr` |
+| `closed` | 已撤销一条挂起通知，含 `id` / `code` / `reason`（`settle:q`、`settle:a`、`turn-end`、`unmount`） |
+| `close-error` | 撤销时 gdbus 启动失败 |
 | `notify-spawn-error` | 找不到 `notify-send` |
 | `handler-error` | 事件处理抛错（不影响宿主） |
 

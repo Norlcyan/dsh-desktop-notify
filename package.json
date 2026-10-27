@@ -1,6 +1,6 @@
 {
   "name": "dsh-desktop-notify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH 桌面通知：回合结束 / 等待选择 / 等待授权 → notify-send（Wayland + Niri，dms/mako/dunst/Quickshell 通用）",
   "keywords": [
     "dsh",
