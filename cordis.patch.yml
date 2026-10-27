@@ -1,0 +1,14 @@
+# ============================================================================
+# dsh-desktop-notify —— DSH bundle patch
+# ============================================================================
+# 这是插件的「挂载声明」。DSH 启动时按 bundle 层栈叠加各插件 patch，
+# 本文件会把插件本体插入 Web profile 的配置树。
+#
+# 安装方式（二选一）：
+#   DSH 插件页 → 添加插件 → 填 github:Norlcyan/dsh-desktop-notify
+#   dsh plugin --profile web add github:Norlcyan/dsh-desktop-notify
+# ============================================================================
+
+- insert:
+    - id: dsh-desktop-notify
+      name: dsh-desktop-notify

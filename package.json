@@ -1,0 +1,38 @@
+{
+  "name": "dsh-desktop-notify",
+  "version": "0.1.0",
+  "description": "DSH 桌面通知：回合结束 / 等待选择 / 等待授权 → notify-send（Wayland + Niri，dms/mako/dunst/Quickshell 通用）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "notification",
+    "notify-send",
+    "wayland",
+    "niri"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Norlcyan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Norlcyan/dsh-desktop-notify.git"
+  },
+  "homepage": "https://github.com/Norlcyan/dsh-desktop-notify#readme",
+  "bugs": {
+    "url": "https://github.com/Norlcyan/dsh-desktop-notify/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
